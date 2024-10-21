@@ -1,0 +1,301 @@
+[
+    {
+        "twinVersionId": "c297fc49-7d5c-4e0f-8411-b090cf1d9dc4",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_03",
+        "default_camera": "/World/Twins/Building/PanoramicView"
+    },
+        {
+        "twinVersionId": "c297fc49-7d5c-4e0f-8411-b090cf1d9dc4",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/PanoramicView"
+    },
+    {
+        "twinVersionId": "ed02afb1-ac52-4275-a1dd-c072487d9d16",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera"
+    },
+    {
+        "twinVersionId": "ed02afb1-ac52-4275-a1dd-c072487d9d16",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/Camera"
+    },
+    {
+        "twinVersionId": "b7586e58-9a07-47f6-8049-43d6d6f2c5e5",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_03",
+        "default_camera": "/World/Twins/Building/Camera_01_01"
+
+    },
+    {
+        "twinVersionId": "b7586e58-9a07-47f6-8049-43d6d6f2c5e5",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera_01_01"
+
+    },
+    {
+        "twinVersionId": "bak2_c297fc49-7d5c-4e0f-8411-b090cf1d9dc4",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "path-to-sensor",
+        "default_camera": "/World/Twins/Building/PanoramicView"
+    },
+    {
+        "twinVersionId": "bak2_c297fc49-7d5c-4e0f-8411-b090cf1d9dc4",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "path-to-sensor",
+        "default_camera": "/World/Twins/Building/PanoramicView"
+    },
+    {
+        "twinVersionId": "cca120eb-e9ed-4317-a24c-2cc05c8b39c5",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_03",
+        "default_camera": "/World/Twins/Building/PanoramicView"
+    },
+    {
+        "twinVersionId": "cca120eb-e9ed-4317-a24c-2cc05c8b39c5",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/PanoramicView"
+    },
+    {
+        "twinVersionId": "431e6077-4ffd-45ab-ae76-56260dd50dab",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera_021"
+    },
+    {
+        "twinVersionId": "431e6077-4ffd-45ab-ae76-56260dd50dab",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/Camera_021"
+    },
+    {
+        "twinVersionId": "9332e77d-fb20-4221-8cf2-9a2c8ef80e22",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/Camera",
+        "sensor_camera": "/World/Twins/Building/Sensors/Cameras/sCam1"
+    },
+    {
+        "twinVersionId": "9332e77d-fb20-4221-8cf2-9a2c8ef80e22",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+         "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera",
+        "sensor_camera": "/World/Twins/Building/Sensors/Cameras/sCam2"
+    },
+    {
+        "twinVersionId": "a44c248e-075a-40f0-8112-4b0371dedc78",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/Camera",
+        "sensor_camera": "/World/Twins/Building/Sensors/Cameras/sCam1"
+    },
+    {
+        "twinVersionId": "a44c248e-075a-40f0-8112-4b0371dedc78",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+         "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera",
+        "sensor_camera": "/World/Twins/Building/Sensors/Cameras/sCam2"
+    },
+    {
+        "twinVersionId": "bb9da2c6-4a1d-4efa-8c0f-222b44bbf136",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera"
+
+    },
+    {
+        "twinVersionId": "bb9da2c6-4a1d-4efa-8c0f-222b44bbf136",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_03",
+        "default_camera": "/World/Twins/Building/Camera"
+
+    },
+    {
+        "twinVersionId": "a44c248e-075a-40f0-8112-4b0371dedc78",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/_BUILDING_PROGRAM_WORKING_opt_1_original",
+        "sensor_camera": "/World/Twins/Building/Sensors/Cameras/sensor_camera_01"
+    },
+    {
+        "twinVersionId": "a44c248e-075a-40f0-8112-4b0371dedc78",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_03",
+        "default_camera": "/World/Twins/Building/_BUILDING_PROGRAM_WORKING_opt_1_original"
+    },
+    {
+        "twinVersionId": "5b4d6e38-f79c-441d-aa1c-9e2c56418c7a",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/_BUILDING_PROGRAM_WORKING_opt_1_original",
+        "sensor_camera": "/World/Twins/Building/Sensors/Cameras/sensor_camera_01"
+    },
+    {
+        "twinVersionId": "5b4d6e38-f79c-441d-aa1c-9e2c56418c7a",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_03",
+        "default_camera": "/World/Twins/Building/_BUILDING_PROGRAM_WORKING_opt_1_original"
+    },
+    {
+        "twinVersionId": "ff87718d-63d9-4ceb-bd82-c2da9c8eca0a",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera_two"
+    },
+    {
+        "twinVersionId": "ff87718d-63d9-4ceb-bd82-c2da9c8eca0a",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_03",
+        "default_camera": "/World/Twins/Building/Camera_two"
+    },
+    {
+        "twinVersionId": "bb748cd5-cf5f-4bd3-80e5-e10965c24841",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/Camera_DroneView"
+    },
+    {
+        "twinVersionId": "bb748cd5-cf5f-4bd3-80e5-e10965c24841",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera_DroneView"
+    },
+    {
+        "twinVersionId": "41b48a71-4637-4132-90c7-d39945fbbe2d",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/Camera_DroneView"
+    },
+    {
+        "twinVersionId": "41b48a71-4637-4132-90c7-d39945fbbe2d",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera_DroneView"
+    },
+    {
+        "twinVersionId": "b9216c32-5eb5-420a-8751-35fa43733b8b",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/Camera_DroneView"
+    },
+    {
+        "twinVersionId": "b9216c32-5eb5-420a-8751-35fa43733b8b",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera_DroneView"
+    },
+
+    {
+        "twinVersionId": "5ddc4ea2-b0f4-4ea1-86fd-660052f27eff",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/sensor_01",
+        "default_camera": "/World/Twins/Building/Camera_01"
+    },
+    {
+        "twinVersionId": "5ddc4ea2-b0f4-4ea1-86fd-660052f27eff",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/sensor_02",
+        "default_camera": "/World/Twins/Building/Camera_01"
+    },
+    {
+        "twinVersionId": "1b75f4cf-4855-453a-ac8d-fab23f9923bb",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/Sensor_01",
+        "default_camera": "/World/Twins/Building/Camera_01"
+    },
+    {
+        "twinVersionId": "1b75f4cf-4855-453a-ac8d-fab23f9923bb",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/Sensor_02",
+        "default_camera": "/World/Twins/Building/Camera_01"
+    },
+    {
+        "twinVersionId": "2sfc4ea2-b0f4-4ea1-86fd-660052f27sdf",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "temperature",
+        "path": "/World/Twins/Building/Sensors/Sensor_01",
+        "default_camera": "/World/Twins/Building/Camera_01"
+    },
+    {
+        "twinVersionId": "2sfc4ea2-b0f4-4ea1-86fd-660052f27sdf",
+        "deviceId": "sdsf",
+        "deviceType": "type",
+        "sensorName": "humidity",
+        "path": "/World/Twins/Building/Sensors/Sensor_02",
+        "default_camera": "/World/Twins/Building/Camera_01"
+    }
+]

@@ -1,0 +1,14 @@
+
+[package]
+    trusted = 0
+    archiveSubdir = "model_exploder-0.9.5/exts/syntway.model_exploder"
+    archivePath = "https://github.com/syntway/model_exploder/archive/refs/tags/v0.9.5.zip"
+    repository = "https://github.com/syntway/model_exploder/tree/v0.9.5"
+    githubRelease = "https://github.com/syntway/model_exploder/releases/tag/v0.9.5"
+
+    [package.authors]
+        0 = "https://github.com/syntway"
+
+    [package.publish]
+        date = 1713013398
+        buildNumber = "v0.9.5"

@@ -1,0 +1,284 @@
+# SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: LicenseRef-NvidiaProprietary
+#
+# NVIDIA CORPORATION, its affiliates and licensors retain all intellectual
+# property and proprietary rights in and to this material, related
+# documentation and any modifications thereto. Any use, reproduction,
+# disclosure or distribution of this material and related documentation
+# without an express license agreement from NVIDIA CORPORATION or
+# its affiliates is strictly prohibited.
+
+[package]
+title = "My Editor"
+version = "0.1.0"
+description = """A foundation for a base editor application."""
+keywords = ["app"]  # That makes it browsable in UI with "app" filter
+template_name = "kit_base_editor"
+
+
+[dependencies]
+"omni.activity.profiler" = {} # For showing RTX loading progress
+"omni.activity.pump" = {} # For showing RTX loading progress
+"omni.anim.curve.core" = {} # Runtime support for animcurves
+"omni.graph.action" = {} # Action graph runtime
+"omni.graph.core" = {} # Omni Graph runtime
+"omni.graph.nodes" = {} # Action graph nodes
+"omni.graph.scriptnode" = {} # Scriptnode support
+"omni.graph.ui_nodes" = {} # Action graph ui nodes
+#"omni.hydra.engine.stats" = {}  # Load the stats HUD (resolution, fps, etc..)
+#"omni.hydra.rtx" = {}  # Viewport renderer
+#"omni.kit.mainwindow" = {}  # Main uiapp
+"omni.kit.manipulator.camera" = {}  # Load the camera-manipulator (navigation)
+"omni.kit.manipulator.prim" = {}  # Load the prim-manipulator (translate, rotate, scale)
+"omni.kit.manipulator.selection" = {}  # Load the selection-manipulator (selectable prims)
+#"omni.kit.material.library" = {} # Create and assign materials.
+#"omni.kit.menu.create" = {} # Create menu
+#"omni.kit.menu.edit" = {}  # Edit menu
+#"omni.kit.menu.file" = {}  # File menu
+#"omni.kit.property.bundle" = {} # all the property editors
+#"omni.kit.raycast.query" = {} # RTX Raycast Query
+#"omni.kit.stage_template.core" = {}  # For creating new empty stages
+#"omni.kit.telemetry" = {} # Telemetry
+#"omni.kit.tool.asset_importer" = {} # Add Asset Importer functionality.
+#"omni.kit.tool.collect" = {} # USD Collect tool
+#"omni.kit.viewport.legacy_gizmos" = {}  # Load the legacy grid and gizmo drawing for now
+#"omni.kit.viewport.menubar.camera" = {}  # Load the view-from-camera menu
+#"omni.kit.viewport.menubar.display" = {}  # Load the display type menu
+#"omni.kit.viewport.menubar.lighting" = {}  # Load the viewport settings menu
+#"omni.kit.viewport.menubar.render" = {}  # Load the renderer selection menu
+#"omni.kit.viewport.menubar.settings" = {}  # Load the viewport settings menu
+"omni.kit.viewport.ready" = {} # Show RTX loading information during startup
+"omni.kit.viewport.scene_camera_model" = {} # Sync camera to scene UI
+"omni.kit.viewport.window" = {}  # Load the actual ViewportWindow extension
+#"omni.kit.window.console" = {}  # Console/log
+#"omni.kit.window.content_browser" = {} # Add content browser to UI
+#"omni.kit.window.property" = {} # Property editor window
+"omni.kit.window.stage" = {}  # Stage tree
+#"omni.kit.window.status_bar" = {}  # Status Bar
+"omni.kit.window.toolbar" = {}  # Manipular Toolbar
+#"omni.physx.stageupdate" = {} # Physics runtime support - will pull in physx dependencies.
+"omni.rtx.settings.core" = {} # RTX Settings
+#"omni.uiaudio" = {} # for audio playback.
+#"omni.usd.metrics.assembler.ui" = {}
+#"omni.usd.schema.metrics.assembler" = {}
+#"omni.warp.core" = {} # Warp support
+
+
+##########################################
+# Vulkan shader caches
+"omni.rtx.shadercache.vulkan" = {}
+"omni.kit.viewport.bundle" ={}
+"omni.kit.tool.markup" = {}
+"omni.kit.window.section" = {}
+"omni.kit.variant.presenter" = {} # Extension from NVIDIA
+
+"syntway.model_exploder" = {} # Extension for exploring models(Comunity)
+"omni.kit.manipulator.viewport" = {} # For syntway to work
+
+
+"omni.kit.uiapp" = {}
+"omni.kit.quicklayout" = {}
+"omni.kit.viewport.rtx" = {}
+"omni.app.setup" = {}
+
+"omni.kit.viewport.menubar.markup" = {}
+"omni.kit.environment.sunstudy" = {}
+
+"ul.gemini.core" = {order = 1}
+"ul.gemini.services" = {}
+"ul.gemini.sensor" = {order = 110000}
+"ul.gemini.chatbot" = {}
+"ul.gemini.artifact" = {}
+"ul.gemini.metadata" = {}
+
+
+#[profiles.layout7]
+#app.layout.default = "${app}/data/layout7.json"
+#app.kit.editor.setup = true
+
+[settings]
+########
+app.extensions.installUntrustedExtensions = true
+app.layout.default = "${app}/data/layout7.json"
+app.kit.editor.setup = true
+#default_layout = "${app}/data/layout7.json"
+
+persistent.app.viewport.Viewport.Viewport0.hud.renderResolution.visible = false
+persistent.app.viewport.Viewport.Viewport0.hud.deviceMemory.visible = false
+persistent.app.viewport.Viewport.Viewport0.hud.hostMemory.visible = false
+persistent.app.viewport.Viewport.Viewport0.hud.renderFPS.visible=false
+
+
+#[settings.app]
+#layout_default = "${app}/data/layout7.json"
+#content.emptyStageOnStart = true
+font.file = "${fonts}/OpenSans-SemiBold.ttf"
+font.size = 16
+hangDetector.enabled = true
+hangDetector.timeout = 120
+renderer.skipWhileMinimized = true
+window.title = "My Editor"
+
+################
+#exts."omni.kit.viewport.window".startup.windowName = "Viewport"
+#exts."omni.kit.renderer.core".compatibilityMode = true #original is false
+# # here you can choose what renderers are enabled
+renderer.enabled = "rtx"
+renderer.active = "rtx"
+
+
+window.x = -1
+window.y = -1
+window.fullscreen = false
+
+window.displayModeLock = false
+window.showStatusBar = false
+viewport.showSettingMenu = false
+viewport.showCameraMenu = false
+viewport.showRendererMenu = false
+viewport.showHideMenu = true
+viewport.show.camera = false
+viewport.show.lights = false
+viewport.show.audio = false
+viewport.grid.enabled = false
+viewport.outline.enabled = true
+viewport.boundingBoxes.hideWhenManipulating = true
+
+
+########
+"omni.kit.markup.core".show_icons = false
+"omni.kit.waypoint.core".show_icons = false
+"omni.kit.markup.core".enable_hotkeys = true
+"omni.kit.waypoint.core".enable_hotkeys = true
+"omni.kit.tool.measure".enable_hotkeys = true
+"omni.kit.viewport.navigation.markup".visible = false
+
+
+
+#############
+
+exts."omni.kit.material.library".ui_show_list = ["OmniPBR", "OmniGlass", "OmniSurface", "USD Preview Surface"]
+exts."omni.rtx.window.settings".window_menu = "Window" # Where to put the render settings menuitem
+exts."omni.kit.viewport.menubar.lighting".defaultRigIgnorePattern = "" # Allows auto light rig with anon layers
+exts."omni.kit.viewport.window".windowMenu.entryCount = 1
+exts."omni.kit.viewport.window".windowMenu.label="" # Put Viewport menuitem under Window menu
+renderer.gpuEnumeration.glInterop.enabled = false # Improves startup speed.
+renderer.asyncInit = true # Don't block while renderer inits
+rtx.ecoMode.enabled = true
+rtx.hydra.mdlMaterialWarmup = true # start loading the MDL shaders needed before any delegate is actually created.
+
+########
+[settings.persistent.exts]
+"omni.kit.viewport.menubar.render".visible = false
+"omni.kit.viewport.menubar.display".visible = false
+"omni.kit.viewport.menubar.camera".visible = false
+"omni.kit.viewport.menubar.framerate".visible = false
+"omni.kit.viewport.menubar.lighting".visible = false
+"omni.kit.manipulator.camera".moveSpeed.2 = 0.08
+"omni.kit.viewport.menubar.settings".visible = false
+
+#[settings.exts]
+"omni.kit.markup.core".show_icons = false
+"omni.kit.waypoint.core".show_icons = false
+"omni.kit.markup.core".enable_hotkeys = true
+"omni.kit.waypoint.core".enable_hotkeys = true
+"omni.kit.tool.measure".enable_hotkeys = true
+
+"omni.kit.viewport.navigation.markup".visible = false
+###########
+
+
+
+#####
+#[settings.rtx]
+directLighting.sampledLighting.enabled = true
+sceneDb.ambientLightIntensity = 0.5
+
+#[settings.rtx-transient]
+scenedb.useUniformsReindexing = true
+
+
+#[settings.app.settings]
+persistent = false
+dev_build = false
+
+#####
+
+
+[settings.app.exts]
+folders.'++' = [  # Search paths for extensions.
+	"${app}/../exts",
+	"${app}/../extscache/"
+]
+
+########
+# Extension Registries
+[settings.exts."omni.kit.registry.nucleus"]
+registries = [
+	{ name = "kit/default", url = "https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/shared" },
+	{ name = "kit/sdk", url = "https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/${kit_version_short}/${kit_git_hash}" },
+	{ name = "kit/community", url = "https://dw290v42wisod.cloudfront.net/exts/kit/community" }
+]
+
+
+
+[settings.app."omni.usd"]
+getRenderablePaths.parallel = 4  # Enable parallel mode for selection performance
+###############
+
+
+
+[settings.telemetry]
+# Anonymous Kit application usage telemetry
+enableAnonymousData = true
+enableAnonymousAppName = true
+
+
+[[test]]
+args = [
+	"--/app/file/ignoreUnsavedOnExit=true"
+]
+
+[template]
+type = "ApplicationTemplate" # Repo Template Metadata
+
+
+########################################################################################################################
+# BEGIN GENERATED PART (Remove from 'BEGIN' to 'END' to regenerate)
+########################################################################################################################
+
+# Kit SDK Version: 106.2.0+release.146576.9df8bbcd.gl
+
+# Version lock for all dependencies:
+[settings.app.exts]
+enabled = [
+	"omni.anim.curve.core-1.1.14",
+	"omni.graph.action-1.110.0",
+	"omni.graph.action_nodes-1.30.0",
+	"omni.graph.nodes-1.150.1",
+	"omni.graph.scriptnode-1.30.1",
+	"omni.graph.ui_nodes-1.30.0",
+	"omni.kit.browser.core-2.3.11",
+	"omni.kit.core.collection-0.1.7",
+	"omni.kit.environment.core-1.3.14",
+	"omni.kit.environment.sunstudy-1.0.11",
+	"omni.kit.markup.core-1.2.20",
+	"omni.kit.markup.playlist-0.0.5",
+	"omni.kit.playlist.core-1.3.4",
+	"omni.kit.prim.icon-1.0.13",
+	"omni.kit.tool.camera_playlist-1.3.1",
+	"omni.kit.tool.markup-1.2.69",
+	"omni.kit.variant.presenter-106.0.0",
+	"omni.kit.viewport.menubar.markup-104.1.26",
+	"omni.kit.waypoint.core-1.4.54",
+	"omni.kit.widget.calendar-1.0.8",
+	"omni.kit.widget.sliderbar-1.0.10",
+	"omni.kit.widget.zoombar-1.0.5",
+	"omni.kit.widgets.custom-1.0.8",
+	"omni.kit.window.section-107.0.1",
+	"syntway.model_exploder-0.9.5",
+]
+
+########################################################################################################################
+# END GENERATED PART
+########################################################################################################################

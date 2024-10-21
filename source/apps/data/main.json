@@ -1,0 +1,96 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "dock_id": 4,
+                "dock_tab_bar_enabled": true,
+                "dock_tab_bar_visible": true,
+                "height": 787.0,
+                "position_x": 0.0,
+                "position_y": 24.0,
+                "selected_in_dock": true,
+                "title": "Viewport",
+                "visible": true,
+                "width": 1092.0
+              }
+            ],
+            "dock_id": 4,
+            "position": "TOP"
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "dock_id": 2,
+                "position": "TOP"
+              },
+              {
+                "children": [
+                  {
+                    "dock_id": 3,
+                    "height": 58.0,
+                    "position_x": 0.0,
+                    "position_y": 815.0,
+                    "selected_in_dock": false,
+                    "title": "simple toolbar",
+                    "visible": true,
+                    "width": 1092.0
+                  }
+                ],
+                "dock_id": 3,
+                "position": "BOTTOM"
+              }
+            ],
+            "dock_id": 5,
+            "position": "BOTTOM"
+          }
+        ],
+        "dock_id": 6,
+        "position": "LEFT"
+      },
+      {
+        "children": [
+          {
+            "dock_id": 1,
+            "height": 849.0,
+            "position_x": 1069.0,
+            "position_y": 24.0,
+            "selected_in_dock": false,
+            "title": "Render Settings",
+            "visible": true,
+            "width": 416.0
+          },
+          {
+            "dock_id": 1,
+            "dock_tab_bar_enabled": true,
+            "dock_tab_bar_visible": true,
+            "height": 849.0,
+            "position_x": 1096.0,
+            "position_y": 24.0,
+            "selected_in_dock": true,
+            "title": "Stage",
+            "visible": true,
+            "width": 416.0
+          }
+        ],
+        "dock_id": 1,
+        "position": "RIGHT"
+      }
+    ],
+    "dock_id": 3358485147
+  },
+  {
+    "dock_id": 0,
+    "height": 0.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Options",
+    "visible": false,
+    "width": 220.0
+  }
+]

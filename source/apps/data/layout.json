@@ -1,0 +1,307 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "dock_id": 2,
+            "dock_tab_bar_enabled": true,
+            "dock_tab_bar_visible": true,
+            "height": 1020.0,
+            "position_x": 0.0,
+            "position_y": 26.0,
+            "selected_in_dock": true,
+            "title": "Viewport",
+            "visible": true,
+            "width": 1573.0
+          }
+        ],
+        "dock_id": 2,
+        "position": "LEFT"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "dock_id": 4,
+                "dock_tab_bar_enabled": true,
+                "dock_tab_bar_visible": true,
+                "height": 717.0,
+                "position_x": 1577.0,
+                "position_y": 26.0,
+                "selected_in_dock": true,
+                "title": "Stage",
+                "visible": false,
+                "width": 650.0
+              }
+            ],
+            "dock_id": 4,
+            "position": "TOP"
+          },
+          {
+            "children": [
+              {
+                "dock_id": 5,
+                "dock_tab_bar_enabled": true,
+                "dock_tab_bar_visible": true,
+                "height": 400.0,
+                "position_x": 1577.0,
+                "position_y": 747.0,
+                "selected_in_dock": true,
+                "title": "Attach Documents",
+                "visible": false,
+                "width": 650.0
+              }
+            ],
+            "dock_id": 5,
+            "position": "BOTTOM"
+          }
+        ],
+        "dock_id": 3,
+        "position": "RIGHT"
+      }
+    ],
+    "dock_id": 3358485147
+  },
+  {
+    "dock_id": 0,
+    "height": 305.0,
+    "position_x": 0.0,
+    "position_y": 741.0,
+    "selected_in_dock": false,
+    "title": "Content",
+    "visible": false,
+    "width": 1341.0
+  },
+  {
+    "dock_id": 0,
+    "height": 508.0,
+    "position_x": 1345.0,
+    "position_y": 538.0,
+    "selected_in_dock": false,
+    "title": "Property",
+    "visible": false,
+    "width": 575.0
+  },
+  {
+    "dock_id": 0,
+    "height": 305.0,
+    "position_x": 0.0,
+    "position_y": 741.0,
+    "selected_in_dock": false,
+    "title": "Console",
+    "visible": false,
+    "width": 1341.0
+  },
+  {
+    "dock_id": 0,
+    "height": 508.0,
+    "position_x": 1345.0,
+    "position_y": 26.0,
+    "selected_in_dock": false,
+    "title": "Stage",
+    "visible": true,
+    "width": 575.0
+  },
+  {
+    "dock_id": 0,
+    "height": 508.0,
+    "position_x": 1345.0,
+    "position_y": 26.0,
+    "selected_in_dock": false,
+    "title": "Layer",
+    "visible": false,
+    "width": 575.0
+  },
+  {
+    "dock_id": 0,
+    "height": 116.0,
+    "position_x": 60.0,
+    "position_y": 60.0,
+    "selected_in_dock": false,
+    "title": "Render Settings",
+    "visible": false,
+    "width": 332.0
+  },
+  {
+    "dock_id": 0,
+    "height": 711.0,
+    "position_x": 0.0,
+    "position_y": 26.0,
+    "selected_in_dock": false,
+    "title": "Main ToolBar",
+    "visible": false,
+    "width": 667.0
+  },
+  {
+    "dock_id": 0,
+    "height": 508.0,
+    "position_x": 1345.0,
+    "position_y": 26.0,
+    "selected_in_dock": false,
+    "title": "Section",
+    "visible": false,
+    "width": 575.0
+  },
+  {
+    "dock_id": 0,
+    "height": 250.0,
+    "position_x": 760.0,
+    "position_y": 415.0,
+    "selected_in_dock": false,
+    "title": "Welcome to UrsaLeo",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Add Attribute...",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 800.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "OmniGraph Node Description Editor",
+    "visible": false,
+    "width": 600.0
+  },
+  {
+    "dock_id": 0,
+    "height": 500.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "OmniGraph Toolkit",
+    "visible": false,
+    "width": 800.0
+  },
+  {
+    "dock_id": 0,
+    "height": 780.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Welcome Screen",
+    "visible": false,
+    "width": 1380.0
+  },
+  {
+    "dock_id": 0,
+    "height": 0.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Image Search",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 0.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Search Options",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 0.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "BeginSearch",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 650.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Playlist",
+    "visible": false,
+    "width": 600.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Markup Export",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Measure",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Select Measure Export Directory",
+    "visible": false,
+    "width": 1000.0
+  },
+  {
+    "dock_id": 0,
+    "height": 0.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Options",
+    "visible": false,
+    "width": 220.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Measure Export",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Markups",
+    "visible": false,
+    "width": 180.0
+  },
+  {
+    "dock_id": 0,
+    "height": 520.0,
+    "position_x": 660.0,
+    "position_y": 280.0,
+    "selected_in_dock": false,
+    "title": "Attach Document to:",
+    "visible": false,
+    "width": 600.0
+  }
+]

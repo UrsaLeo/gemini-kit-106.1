@@ -1,0 +1,287 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "dock_id": 3,
+                "dock_tab_bar_enabled": true,
+                "dock_tab_bar_visible": true,
+                "height": 787.0,
+                "position_x": 0.0,
+                "position_y": 24.0,
+                "selected_in_dock": true,
+                "title": "Viewport",
+                "visible": true,
+                "width": 1038.0
+              }
+            ],
+            "dock_id": 3,
+            "position": "LEFT"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "dock_id": 5,
+                    "dock_tab_bar_enabled": true,
+                    "dock_tab_bar_visible": true,
+                    "height": 522.0,
+                    "position_x": 1042.0,
+                    "position_y": 24.0,
+                    "selected_in_dock": true,
+                    "title": "Stage",
+                    "visible": true,
+                    "width": 470.0
+                  }
+                ],
+                "dock_id": 5,
+                "position": "TOP"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "dock_id": 7,
+                        "dock_tab_bar_enabled": true,
+                        "dock_tab_bar_visible": true,
+                        "height": 380.0,
+                        "position_x": 1042.0,
+                        "position_y": 550.0,
+                        "selected_in_dock": true,
+                        "title": "Property",
+                        "visible": false,
+                        "width": 470.0
+                      },
+                      {
+                        "dock_id": 8,
+                        "dock_tab_bar_enabled": true,
+                        "dock_tab_bar_visible": true,
+                        "height": 365.0,
+                        "position_x": 1042.0,
+                        "position_y": 550.0,
+                        "selected_in_dock": true,
+                        "title": "Artifact",
+                        "visible": false,
+                        "width": 470.0
+                      }
+                    ],
+                    "dock_id": 7,
+                    "position": "BOTTOM"
+                  }
+                ],
+                "dock_id": 6,
+                "position": "BOTTOM"
+              }
+            ],
+            "dock_id": 4,
+            "position": "RIGHT"
+          }
+        ],
+        "dock_id": 1,
+        "position": "TOP"
+      },
+      {
+        "children": [
+          {
+            "dock_id": 2,
+            "height": 58.0,
+            "position_x": 0.0,
+            "position_y": 815.0,
+            "selected_in_dock": false,
+            "title": "simple toolbar",
+            "visible": true,
+            "width": 1512.0
+          }
+        ],
+        "dock_id": 2,
+        "position": "BOTTOM"
+      }
+    ],
+    "dock_id": 3358485147
+  },
+  {
+    "dock_id": 0,
+    "height": 522.0,
+    "position_x": 1042.0,
+    "position_y": 24.0,
+    "selected_in_dock": false,
+    "title": "Render Settings",
+    "visible": false,
+    "width": 470.0
+  },
+  {
+    "dock_id": 0,
+    "height": 498.0,
+    "position_x": 992.0,
+    "position_y": 24.0,
+    "selected_in_dock": false,
+    "title": "Measure",
+    "visible": false,
+    "width": 448.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 60.0,
+    "position_y": 60.0,
+    "selected_in_dock": false,
+    "title": "Content",
+    "visible": false,
+    "width": 1000.0
+  },
+  {
+    "dock_id": 0,
+    "height": 800.0,
+    "position_x": 60.0,
+    "position_y": 60.0,
+    "selected_in_dock": false,
+    "title": "Layer",
+    "visible": false,
+    "width": 600.0
+  },
+  {
+    "dock_id": 0,
+    "height": 150.0,
+    "position_x": 60.0,
+    "position_y": 60.0,
+    "selected_in_dock": false,
+    "title": "VS Code Link",
+    "visible": false,
+    "width": 300.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 312.0,
+    "position_y": 259.0,
+    "selected_in_dock": false,
+    "title": "Preferences",
+    "visible": false,
+    "width": 1000.0
+  },
+  {
+    "dock_id": 0,
+    "height": 650.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Playlist",
+    "visible": false,
+    "width": 600.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Markup Export",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Add Attribute...",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Select Measure Export Directory",
+    "visible": false,
+    "width": 1000.0
+  },
+  {
+    "dock_id": 0,
+    "height": 0.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Options",
+    "visible": false,
+    "width": 220.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Measure Export",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 1.0,
+    "position_x": -2.0,
+    "position_y": -2.0,
+    "selected_in_dock": false,
+    "title": "Sun Study",
+    "visible": false,
+    "width": 1.0
+  },
+  {
+    "dock_id": 0,
+    "height": 0.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Sun Study Location",
+    "visible": false,
+    "width": 460.0
+  },
+  {
+    "dock_id": 0,
+    "height": 290.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Sun Study Date & Time",
+    "visible": false,
+    "width": 500.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Markups",
+    "visible": false,
+    "width": 180.0
+  },
+  {
+    "dock_id": 0,
+    "height": 114.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "omni.ui.scene 2006915786480",
+    "visible": false,
+    "width": 210.8000030517578
+  },
+  {
+    "dock_id": 0,
+    "height": 100.0,
+    "position_x": 520.0,
+    "position_y": 368.0,
+    "selected_in_dock": false,
+    "title": "\uf01f",
+    "visible": false,
+    "width": 400.0
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "dock_id": 3,
+                "dock_tab_bar_enabled": true,
+                "dock_tab_bar_visible": true,
+                "height": 895.0,
+                "position_x": 0.0,
+                "position_y": 24.0,
+                "selected_in_dock": true,
+                "title": "Viewport",
+                "visible": true,
+                "width": 1294.0
+              }
+            ],
+            "dock_id": 3,
+            "position": "LEFT"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "dock_id": 5,
+                    "dock_tab_bar_enabled": true,
+                    "dock_tab_bar_visible": true,
+                    "height": 553.0,
+                    "position_x": 1298.0,
+                    "position_y": 24.0,
+                    "selected_in_dock": true,
+                    "title": "Stage",
+                    "visible": true,
+                    "width": 586.0
+                  },
+                  
+                  {
+                    "dock_id": 5,
+                    "height": 553.0,
+                    "position_x": 1298.0,
+                    "position_y": 24.0,
+                    "selected_in_dock": false,
+                    "title": "Measure",
+                    "visible": false,
+                    "width": 586.0
+                  }
+                ],
+                "dock_id": 5,
+                "position": "TOP"
+              },
+              {
+                "children": [
+                  {
+                    "dock_id": 6,
+                    "dock_tab_bar_enabled": true,
+                    "dock_tab_bar_visible": true,
+                    "height": 400.0,
+                    "position_x": 1298.0,
+                    "position_y": 581.0,
+                    "selected_in_dock": true,
+                    "title": "Artifact",
+                    "visible": false,
+                    "width": 586.0
+                  }
+                ],
+                "dock_id": 6,
+                "position": "BOTTOM"
+              }
+            ],
+            "dock_id": 4,
+            "position": "RIGHT"
+          }
+        ],
+        "dock_id": 1,
+        "position": "TOP"
+      },
+      {
+        "children": [
+          {
+            "dock_id": 2,
+            "height": 58.0,
+            "position_x": 0.0,
+            "position_y": 923.0,
+            "selected_in_dock": false,
+            "title": "simple toolbar",
+            "visible": true,
+            "width": 1884.0
+          }
+        ],
+        "dock_id": 2,
+        "position": "BOTTOM"
+      }
+    ],
+    "dock_id": 3358485147
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 60.0,
+    "position_y": 60.0,
+    "selected_in_dock": false,
+    "title": "Content",
+    "visible": false,
+    "width": 1000.0
+  },
+  {
+    "dock_id": 0,
+    "height": 800.0,
+    "position_x": 60.0,
+    "position_y": 60.0,
+    "selected_in_dock": false,
+    "title": "Layer",
+    "visible": false,
+    "width": 600.0
+  },
+  {
+    "dock_id": 0,
+    "height": 338.0,
+    "position_x": 1298.0,
+    "position_y": 814.0,
+    "selected_in_dock": false,
+    "title": "Property",
+    "visible": false,
+    "width": 586.0
+  },
+  {
+    "dock_id": 0,
+    "height": 112.0,
+    "position_x": 60.0,
+    "position_y": 60.0,
+    "selected_in_dock": false,
+    "title": "Render Settings",
+    "visible": false,
+    "width": 350.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Add Attribute...",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Select Measure Export Directory",
+    "visible": false,
+    "width": 1000.0
+  },
+  {
+    "dock_id": 0,
+    "height": 0.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Options",
+    "visible": false,
+    "width": 220.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Measure Export",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 1.0,
+    "position_x": -2.0,
+    "position_y": -2.0,
+    "selected_in_dock": false,
+    "title": "Sun Study",
+    "visible": false,
+    "width": 1.0
+  },
+  {
+    "dock_id": 0,
+    "height": 0.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Sun Study Location",
+    "visible": false,
+    "width": 460.0
+  },
+  {
+    "dock_id": 0,
+    "height": 290.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Sun Study Date & Time",
+    "visible": false,
+    "width": 500.0
+  },
+  {
+    "dock_id": 0,
+    "height": 650.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Playlist",
+    "visible": false,
+    "width": 600.0
+  },
+  {
+    "dock_id": 0,
+    "height": 300.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "My Window TEst",
+    "visible": false,
+    "width": 300.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Markup Export",
+    "visible": false,
+    "width": 400.0
+  },
+  {
+    "dock_id": 0,
+    "height": 600.0,
+    "position_x": 3.4028234663852886e+38,
+    "position_y": 3.4028234663852886e+38,
+    "selected_in_dock": false,
+    "title": "Markups",
+    "visible": false,
+    "width": 180.0
+  }
+]
