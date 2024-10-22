@@ -1,0 +1,224 @@
+{
+    "avatar_0": {
+        "spawn_position": "3802 3905 0 90",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": null,
+                "finish_time": null,
+                "finish_pos": "-5637 1119 0 138"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "-8530 3464 0 138"
+            }
+        ]
+    },
+    "avatar_1": {
+        "spawn_position": "587 7537 0 0",
+        "actions": [
+
+            {
+                "type": "GoTo",
+                "start_time": null,
+                "finish_time": null,
+                "finish_pos": "750 4180 0 0"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "587 7537 0 0"
+            }
+        ]
+    },
+    "avatar_2": {
+        "spawn_position": "176 7500 0 0",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": null,
+                "finish_time": null,
+                "finish_pos": "790 4810 0 _"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "176 7500 0 0"
+            }
+        ]
+    },
+    "avatar_3": {
+        "spawn_position": "-119 7713 0 0",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": 10,
+                "finish_time": null,
+                "finish_pos": "1487 3902 0 138"
+            },
+            {
+                "type": "LookAround",
+                "start_time": 11,
+                "finish_time": null,
+                "duration": 50
+            },
+            {
+                "type": "GoTo",
+                "start_time": 12,
+                "finish_time": null,
+                "finish_pos": "1067 5879 0 0"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "-119 7713 0 0"
+            }
+        ]
+    },
+    "avatar_4": {
+        "spawn_position": "-7000 2000 0 0",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": null,
+                "finish_time": null,
+                "finish_pos": "-2410 1386 0 _"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "-7000 2000 0 0"
+            }
+        ]
+    },
+    "avatar_5": {
+        "spawn_position": "1300 7637 0 0",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": 13,
+                "finish_time": null,
+                "finish_pos": "2300 2300 0 0"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "1300 7637 0 0"
+            }
+        ]
+    },
+    "avatar_6": {
+        "spawn_position": "400 8237 0 0",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": 15,
+                "finish_time": null,
+                "finish_pos": "3000 4000 0 0"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "400 8237 0 0"
+            }
+        ]
+    },
+    "avatar_7": {
+        "spawn_position": "600 8237 0 0",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": 18,
+                "finish_time": null,
+                "finish_pos": "4000 3244 0 0"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "-7799 4907 0 138"
+            }
+        ]
+    },
+    "avatar_8": {
+        "spawn_position": "-7930 4464 0 138",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": 20,
+                "finish_time": null,
+                "finish_pos": "-5694 2521 0 138"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "-7930 4464 0 138"
+            }
+        ]
+    },
+    "avatar_9": {
+        "spawn_position": "-8100 5000 0 138",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": 23,
+                "finish_time": null,
+                "finish_pos": "-5650 1002 0 138"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "-8100 5000 0 138"
+            }
+        ]
+    },
+    "avatar_10": {
+        "spawn_position": "-7800 4700 0 138",
+        "actions": [
+            {
+                "type": "GoTo",
+                "start_time": 25,
+                "finish_time": null,
+                "finish_pos": "-5480 1291 0 138"
+            }
+        ],
+        "alarm_actions": [
+            {
+                "type": "GoTo",
+                "start_time": 3,
+                "finish_time": null,
+                "finish_pos": "-7800 4700 0 138"
+            }
+        ]
+    }
+}

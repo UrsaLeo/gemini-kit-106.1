@@ -1,0 +1,36 @@
+{
+  "test_1": {
+    "spawn_position": null,
+    "action": [
+      {
+        "type": "GoTo",
+        "finish_pos": "10 10 0 _"
+      },
+      {
+        "type": "GoTo",
+        "finish_pos": "0 0 0 _"
+      }
+    ]
+  },
+  "test_2": {
+    "spawn_position": "-2 5 0 120",
+    "action": [
+      {
+        "type": "GoTo",
+        "finish_pos": "5 0 0 _"
+      },
+      {
+        "type": "Idle",
+        "duration": "15"
+      },
+      {
+        "type": "GoTo",
+        "finish_pos": "0 0 0 _"
+      },
+      {
+        "type": "LookAround",
+        "duration": "5"
+      }
+    ]
+  }
+}

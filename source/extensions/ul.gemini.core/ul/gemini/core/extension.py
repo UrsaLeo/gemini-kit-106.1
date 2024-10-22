@@ -8,7 +8,7 @@ import omni.ui as ui
 import carb.settings     #CR: Duplicate remove
 from omni.ui import color as cl
 import omni.usd
-from pxr import Usd, UsdGeom, Sdf, Gf
+from pxr import Usd, UsdGeom, Sdf, Gf, Ar
 from omni.usd import get_context
 from omni.kit.viewport.utility import get_active_viewport
 from omni.kit.markup.core.widgets.list_window import MarkupListWindow
@@ -44,6 +44,9 @@ from syntway.model_exploder.window import Window as ModelExploderWindow
 import omni.appwindow
 import carb.input
 from carb.input import KeyboardEventType
+
+import omni.timeline
+from omni.anim.graph.core import ag
 
 
 # Any class derived from `omni.ext.IExt` in top level module (defined in `python.modules` of `extension.toml`) will be
@@ -193,6 +196,7 @@ class ULExtension(omni.ext.IExt):
                 [],
                 True,
             )
+
             if partner_secure_data["twinVersionId"] == "1b75f4cf-4855-453a-ac8d-fab23f9923bb":
                 # Used only for 1 twin now, so we just need to hard code it
                 tb.extensionVisibilityAction(
@@ -218,26 +222,211 @@ class ULExtension(omni.ext.IExt):
         #         self._stage_subscription = self.stage_stream.create_subscription_to_pop(
         #         self.on_stage_event, name="MyExtensionOnStageEvent"
         # )
+        # if  event.type == int(omni.usd.StageEventType.ASSETS_LOADING):
+        #     stage = omni.usd.get_context().get_stage()
+        #     if stage.GetPrimAtPath('/World/Characters') is not None:
+        #         avatar = ag.get_character(str('/World/Characters/avatar_1'))
+        #         print("ava11", avatar)
+        #         # avatar = omni.anim.people.get_avatar(prim_path='/World/Charatters/avatar_1')
+        #         if avatar:
+        #             avatar.set_variable("Action", "Sit")
 
+        #     if omni.timeline.get_timeline_interface().is_stopped:
+        #         print("yess")
+        #         omni.timeline.get_timeline_interface().play()
+        #         omni.timeline.get_timeline_interface().pause()
+
+            # self._stage_subscription = self.stage_stream.create_subscription_to_pop(
+            #     self.on_stage_event, name="MyExtensionOnStageEvent"
+            # )
 
         if event.type == int(omni.usd.StageEventType.ASSETS_LOADED):
-            import toml
+            stage = omni.usd.get_context().get_stage()
+            building_prim = stage.GetPrimAtPath("/World/Twins/Building/Geometry/Arch_CannonDesign/Cannon_Full_01e")
+            garden_prim = stage.GetPrimAtPath("/World/Twins/Building/Geometry/Arch_CannonDesign/Cannon_Full_01e/Geometry/Curtain_Wall_Mullions_Component_3825042/Mesh6559")
+            floor_prim = stage.GetPrimAtPath(
+                "/World/Twins/Building/Geometry/Arch_CannonDesign/Cannon_Full_01e/Geometry/Floors_Component_3825072/Floor__LANDSCAPE___PAVER__A796DF_Component_3431362/Mesh7342"
+            )
+            floor_prim2 = stage.GetPrimAtPath(
+                "/World/Twins/Building/Geometry/Arch_CannonDesign/Cannon_Full_01e/Geometry/Floors_Component_3825072/Floor__H_B___FLOR___C5___MB___G4___SLAB_ON_GRADE__C8F13A_Component_3433213/Mesh7332"
+            )
 
-            # Load the TOML file and extract the relevant value
-            config = toml.load(r'C:/Anastasia/temp/kit-app-template/repo.toml')
-            app_path = config.get('settings', {}).get('app', {})
-            print(f"The value of ${'{app}'} is: {app_path}")
+            if not building_prim.IsValid():
+                print("not valid")
+            else:
+                # imageable = UsdGeom.Imageable(floor_prim)
+                # time = Usd.TimeCode.Default() # The time at which we compute the bounding box
+                # bound = imageable.ComputeWorldBound(time, UsdGeom.Tokens.default_)
+                # bound_range = bound.ComputeAlignedBox()
+                # print("bbrange_floor", bound_range)
+                points_attr = floor_prim2.GetAttribute('points')
+                if points_attr:
+                    points = points_attr.Get()
+                    # Calculate bounds
+                    min_x = min(pt[0] for pt in points)
+                    min_y = min(pt[1] for pt in points)
+                    min_z = min(pt[2] for pt in points)
+                    max_x = max(pt[0] for pt in points)
+                    max_y = max(pt[1] for pt in points)
+                    max_z = max(pt[2] for pt in points)
+                    print(f"Bounding Box22: [({min_x}, {min_y}, {min_z}), ({max_x}, {max_y}, {max_z})]")
+
+
+
+            # if building_prim.IsValid():
+            # bbox_cache = UsdGeom.BBoxCache(0, purpose=[])
+            # bbox = bbox_cache.ComputeWorldBound(building_prim)
+            # min_point, max_point = bbox.GetRange().GetMin(), bbox.GetRange().GetMax()
+
+            # print(f"Building Bounding Box - Min: {min_point}, Max: {max_point}")
+
+            # stage = omni.usd.get_context().get_stage()
+
+            # if stage.GetPrimAtPath("World/Characters"):
+            #     print("yess")
+            #     omni.timeline.get_timeline_interface().play()
+
             print("I am clossing since asset is loaded !!")
-            # self._window.visible = False
             self._stage_subscription.unsubscribe()
             self._stage_subscription = None
             self._window.visible = False
 
+            # Disables auto rebake on startp
+            omni.kit.commands.execute(
+                'ChangeSettingCommand',
+                path="/persistent/exts/omni.anim.navigation.core/navMesh/autoRebakeOnChanges",
+                value=False
+            )
+            omni.kit.commands.execute(
+                'ChangeSettingCommand',
+                path="/exts/omni.anim.navigation.core/navMesh/cache/enabled",
+                value=False
+            )
+            omni.kit.commands.execute(
+                'ChangeSettingCommand',
+                path="/exts/omni.anim.navigation.core/navMesh/config/vizSurfaceEnable",
+                value=False
+            )
+
+            # omni.kit.commands.execute(
+            #     "ToggleVisibilitySelectedPrims",
+            #     selected_paths=[Sdf.Path('/Environment')],
+            #     stage=Usd.Stage.Open(
+            #         rootlayer=Sdf.Find(r'C:/Anastasia/gemini-kit-106/source/apps/data/models/9332e77d-fb20-4221-8cf2-9a2c8ef80e22/Building.usd')
+
+            #     )
+            # )
+
+            stage = omni.usd.get_context().get_stage()
+
+            try:
+                # print("try block")
+
+                # if stage.GetPrimAtPath("World/Characters"):
+                #     print("yesss")
+                #     omni.timeline.get_timeline_interface().play()
+                omni.kit.commands.execute(
+                    "ToggleVisibilitySelectedPrims",
+                    selected_paths=[Sdf.Path('/Environment')],
+                    stage=stage
+                )
+                omni.kit.commands.execute(
+                    "ToggleVisibilitySelectedPrims",
+                    selected_paths=[Sdf.Path('/World/Twins/Building/Geometry/Arch_CannonDesign/Terrain')],
+                    stage=stage
+                )
+                omni.kit.commands.execute(
+                    "ToggleVisibilitySelectedPrims",
+                    selected_paths=[Sdf.Path('/World/Twins/Building/Geometry/Arch_CannonDesign/PaintTool')],
+                    stage=stage
+                )
+
+                # if stage.GetPrimAtPath("World/Characters"):
+                #     omni.kit.commands.execute(
+                #         "ToolbarPlayButtonClickedCommand"
+                #     )
+
+
+
+
+                # environment_prim = stage.GetPrimAtPath('/Environment')
+                # paint_prim = stage.GetPrimAtPath('/World/Twins/Building/Geometry/Arch_CannonDesign/PaintTool')
+                # terrain_prim = stage.GetPrimAtPath('/World/Twins/Building/Geometry/Arch_CannonDesign/Terrain')
+
+                # if environment_prim:
+                #     env_visibility_attr = environment_prim.GetAttribute('visibility')
+                #     if env_visibility_attr and env_visibility_attr.Get() == "invisible":
+                #         env_visibility_attr.Set(UsdGeom.Tokens.visible)
+
+                #         # stage.GetRootLayer().Save()
+
+                # if paint_prim:
+                #     paint_visibility_attr = paint_prim.GetAttribute('visibility')
+                #     if paint_visibility_attr and paint_visibility_attr.Get() == "invisible":
+                #         paint_visibility_attr.Set(UsdGeom.Tokens.visible)
+                #         # current_visibility = paint_visibility_attr.Get()
+
+                #         # stage.GetRootLayer().Save()
+
+                # if terrain_prim:
+                #     terrain_visibility_attr = terrain_prim.GetAttribute('visibility')
+                #     if terrain_visibility_attr and terrain_visibility_attr.Get() == "invisible":
+                #         terrain_visibility_attr.Set(UsdGeom.Tokens.visible)
+
+                #         # stage.GetRootLayer().Save()
+
+                #     else:
+                #         print("Visibility attribute not found.")
+
+                # for prim in stage.Traverse():
+                #     print(prim.GetName(), prim.GetPath())
+            except Exception as e:
+                print(f"Error executing command: {e}")
+
+            ###############
+            # import omni.anim.navigation.core as nav
+            # inav = nav.acquire_interface()
+            # # inav.cancel_navmesh_baking()
+
+            # valid = inav.validate_navmesh_point(carb.Float3(175.237, 7500.94, 5.39e-08))
+            # print(f"Point is valid: {valid}")
+
+            # for offset in [(-1, 0, 0), (1, 0, 0), (0, 0, -1), (0, 0, 1)]:
+            #     adjusted_point = carb.Float3(
+            #         175.237 + offset[0],
+            #         7500.94 + offset[1],
+            #         5.39e-08 + offset[2]
+            #     )
+            #     valid = inav.validate_navmesh_point(adjusted_point)
+            #     print(f"Adjusted point {adjusted_point} is valid: {valid}")
+
+
+            # volume_count = inav.get_navmesh_volume_count()
+            # print(f"Navmesh volumes: {volume_count}")
+
+            # nearest = carb.Float3()
+            # found = inav.closest_navmesh_point(carb.Float3(175.237, 7500.94, 5.39e-08), nearest)
+            # print(f"Nearest valid point: {nearest}, Found: {found}")
+
+
+
+            ####################
+
             # we are doing this after asset is loaded to avoid the "render context changed" message
             init_measure()
-            window = ui.Workspace.get_window("Property")
-            if window:
-                window.visible = False
+
+            attachment_window = ui.Workspace.get_window("Attachment")
+            avatar_window = ui.Workspace.get_window("Avatar configurations")
+            stage_window = ui.Workspace.get_window("Stage")
+            viewport_window = ui.Workspace.get_window("Viewport")
+
+            # if attachment_window and avatar_window:
+            #     avatar_window.dock_in(attachment_window, ui.DockPosition.BOTTOM, 0.5)
+
+            console_window = ui.Workspace.get_window("Console")
+            if console_window:
+                console_window.visible = False
+
 
     async def load_usd_to_viewport(self):
         # Asynchronously open the USD stage
@@ -313,6 +502,12 @@ class ULExtension(omni.ext.IExt):
         self.setup_hotkey()
 
         # self.setup_viewport_settings()
+        # omni.kit.commands.execute(
+        #     "CreateNavMeshVolumeCommand",
+        #     parent_prim_path=Sdf.Path("/World"),
+        #     layer=None,
+        #     usd_context_name=""
+        # )
 
     def on_shutdown(self):
         self._camera_changer = None

@@ -1,0 +1,114 @@
+{
+  "avatar_0": {
+    "spawn_position": "-2410 1486 50 90",
+    "actions": [
+      {
+        "type": "GoTo",
+        "start_time": null,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+    "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_1": {
+    "spawn_position": "587 7537 50 0",
+    "actions": [
+      {
+        "type": "GoTo",
+        "start_time": null,
+        "finish_time": null,
+        "finish_pos": "-2410 1386 50 _"
+      },
+      {
+        "type": "Idle",
+        "start_time": null,
+        "finish_time": null,
+        "duration": 10
+      },
+      {
+        "type": "GoTo",
+        "start_time": null,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+    "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_2": {
+    "spawn_position": "176 7500 50 0",
+    "actions": [
+      {
+        "type": "GoTo",
+        "start_time": 50,
+        "finish_time": null,
+        "finish_pos": "-5410 3386 50 _"
+      },
+      {
+        "type": "Idle",
+        "start_time": 51,
+        "finish_time": null,
+        "duration": 10
+      },
+      {
+        "type": "GoTo",
+        "start_time": 52,
+        "finish_time": null,
+        "finish_pos": "5079 10501 50 138"
+      }
+    ],
+    "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "5079 10501 50 138"
+      }
+    ]
+  },
+  "avatar_3": {
+    "spawn_position": "-119 7713 50 0",
+    "actions": [
+      {
+        "type": "GoTo",
+        "start_time": 100,
+        "finish_time": null,
+        "finish_pos": "-4410 2386 50 _"
+      },
+      {
+        "type": "Idle",
+        "start_time": 101,
+        "finish_time": null,
+        "duration": 10
+      },
+      {
+        "type": "GoTo",
+        "start_time": 102,
+        "finish_time": null,
+        "finish_pos": "4079 9501 50 138"
+      }
+    ],
+    "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "4079 9501 50 138"
+      }
+    ]
+  }
+}

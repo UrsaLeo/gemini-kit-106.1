@@ -1,0 +1,302 @@
+{
+  "avatar_0": {
+    "spawn_position": "1895 0 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+    "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_1": {
+    "spawn_position": "4161 200 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+    "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_2": {
+    "spawn_position": "4161 3121 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_3": {
+    "spawn_position": "-1755 3121 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_4": {
+    "spawn_position": "15189 1942 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_5": {
+    "spawn_position": "-4714 2179 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_6": {
+    "spawn_position": "2442 3704 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_7": {
+    "spawn_position": "4705 3950 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_8": {
+    "spawn_position": "-7217 3665 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "1022 3494 50 2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "1022 3494 50 2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_9": {
+    "spawn_position": "7991 2856 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_10": {
+    "spawn_position": "9914 2636 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_11": {
+    "spawn_position": "13120 2637 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_12": {
+    "spawn_position": "5993 3968 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_13": {
+    "spawn_position": "-7092 1673 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "1022 3494 50 2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "1022 3494 50 2079 7501 50 138"
+      }
+    ]
+  },
+  "avatar_14": {
+    "spawn_position": "-4713 1678 50 90",
+    "actions": [
+      {
+        "type": "Idle",
+        "start_time": 3,
+        "finish_time": null,
+        "duration": 20,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ],
+        "alarm_actions": [
+      {
+        "type": "GoTo",
+        "start_time": 3,
+        "finish_time": null,
+        "finish_pos": "2079 7501 50 138"
+      }
+    ]
+  }
+}

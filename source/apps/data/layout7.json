@@ -111,6 +111,54 @@
                     "title": "Model Exploder",
                     "visible": false,
                     "width": 449.0
+                  },
+                  {
+                    "dock_id": 6,
+                    "dock_tab_bar_enabled": true,
+                    "dock_tab_bar_visible": true,
+                    "height": 280.0,
+                    "position_x": 991.0,
+                    "position_y": 459.0,
+                    "selected_in_dock": true,
+                    "title": "Avatar configurations",
+                    "visible": true,
+                    "width": 449.0
+                  },
+                  {
+                    "dock_id": 6,
+                    "dock_tab_bar_enabled": true,
+                    "dock_tab_bar_visible": true,
+                    "height": 280.0,
+                    "position_x": 991.0,
+                    "position_y": 459.0,
+                    "selected_in_dock": true,
+                    "title": "Property",
+                    "visible": false,
+                    "width": 449.0
+                  },
+                  {
+                    "dock_id": 6,
+                    "dock_tab_bar_enabled": true,
+                    "dock_tab_bar_visible": true,
+                    "height": 280.0,
+                    "position_x": 991.0,
+                    "position_y": 459.0,
+                    "selected_in_dock": true,
+                    "title": "NavMesh",
+                    "visible": false,
+                    "width": 449.0
+                  },
+                  {
+                    "dock_id": 6,
+                    "dock_tab_bar_enabled": true,
+                    "dock_tab_bar_visible": true,
+                    "height": 280.0,
+                    "position_x": 991.0,
+                    "position_y": 459.0,
+                    "selected_in_dock": true,
+                    "title": "Commands",
+                    "visible": true,
+                    "width": 449.0
                   }
                 ],
                 "dock_id": 6,
