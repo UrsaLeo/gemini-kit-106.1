@@ -224,9 +224,9 @@ class ULExtension(omni.ext.IExt):
             import toml
 
             # Load the TOML file and extract the relevant value
-            config = toml.load(r'C:/Anastasia/temp/kit-app-template/repo.toml')
-            app_path = config.get('settings', {}).get('app', {})
-            print(f"The value of ${'{app}'} is: {app_path}")
+            # config = toml.load(r'C:/Anastasia/temp/kit-app-template/repo.toml')
+            # app_path = config.get('settings', {}).get('app', {})
+            # print(f"The value of ${'{app}'} is: {app_path}")
             print("I am clossing since asset is loaded !!")
             # self._window.visible = False
             self._stage_subscription.unsubscribe()
