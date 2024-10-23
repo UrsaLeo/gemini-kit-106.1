@@ -40,6 +40,10 @@ def get_partner_secure_data():
         return partner_secure_data
 
     try:
+        load_local_secure_data()
+        #partner_secure_data = json.loads(default_secure_data)
+        return partner_secure_data
+
         sdklib_path = os.path.join(os.path.dirname(__file__) , "../../../lib/x64/GfnRuntimeSdk.dll")
         print (f"loading sdk from path {sdklib_path}")
         gfnsdk_library  =  CDLL(sdklib_path)
