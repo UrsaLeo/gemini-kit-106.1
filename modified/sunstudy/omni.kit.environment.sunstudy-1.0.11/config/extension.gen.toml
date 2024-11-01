@@ -1,0 +1,10 @@
+
+[package]
+    archivePath = "http://d4i3qtqj3r0z5.cloudfront.net/omni.kit.environment.sunstudy-1.0.11.zip"
+
+    [package.publish]
+        kitVersion = "105.1+release.125335.b2887aa7.tc"
+        date = 1695022855
+        buildNumber = "105.0.1+master.2423.d1573e4a.tc"
+        repoName = "kit-windows"
+        signed = 1

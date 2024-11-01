@@ -1,0 +1,68 @@
+[package]
+# Semantic Versionning is used: https://semver.org/
+version = "1.0.11"
+
+# Lists people or organizations that are considered the "authors" of the package.
+authors = ["NVIDIA"]
+
+# The title and description fields are primarly for displaying extension info in UI
+title = "Environment Sun Study"
+description="Sun Study extension based on environment, which replace omni.kit.window.sunstudy"
+
+# URL of the extension source repository.
+repository = ""
+
+# Keywords for the extension
+keywords = ["kit", "environment", "Sun", "Study"]
+
+# Location of change log file in target (final) folder of extension, relative to the root.
+# More info on writing changelog: https://keepachangelog.com/en/1.0.0/
+changelog="docs/CHANGELOG.rst"
+
+# Path (relative to the root) or content of readme markdown file for UI.
+readme  = "docs/README.md"
+
+# Preview image and icon. Folder named "data" automatically goes in git lfs (see .gitattributes file).
+# Preview image is shown in "Overview" of Extensions window. Screenshot of an extension might be a good preview image.
+preview_image = "data/preview.png"
+
+# Icon is shown in Extensions window, it is recommended to be square, of size 256x256.
+icon = "icons/SunStudy.svg"
+
+category = "Other"
+feature = true
+
+[dependencies]
+"omni.kit.commands" = {}
+"omni.kit.environment.core" = {}
+"omni.kit.widget.calendar" = {}
+"omni.kit.widgets.custom" = {}
+"omni.kit.viewport.window" = {}
+
+# Main python module this extension provides, it will be publicly available as "import omni.kit.environment.sunstudy".
+[[python.module]]
+name = "omni.kit.environment.sunstudy"
+
+[settings]
+# Help url for sun study. If defined with non-empty, will show a help button in sun study window title bar
+exts."omni.kit.environment.sunstudy".helpUrl = ""
+# Is the sunstudy window visible on extension startup
+exts."omni.kit.environment.sunstudy".init_visible = false
+# exts."omni.kit.environment.sunstudy".window.width = 680
+
+[[test]]
+dependencies = [
+    "omni.kit.renderer.core",
+    "omni.kit.renderer.capture",
+]
+stdoutFailPatterns.exclude = [
+    "*<class 'omni.kit.menu.utils.scripts.utils.MenuUtilsExtension'>: extension object is still alive*", # Leak
+    "*createDLSSContext error: unable to initialize context. Optional DLSS feature is disabled.*",
+]
+args = [
+    "--/app/file/ignoreUnsavedOnExit=true",
+    "--no-window",
+    "--/app/window/dpiScaleOverride=1.0",
+    "--/app/window/scaleToMonitor=false",
+    "--/exts/omni.kit.environment.sunstudy/colors/panel=0xFFFF0000",
+]
