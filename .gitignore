@@ -43,6 +43,7 @@ deps/**/user.toml
 # Exclude the specific demo directory
 source/apps/data/models
 source/isaac-dependencies
+modified/isaac-dependencies
 **/Characters
 source/**/Characters/
 source/**/Anims/
