@@ -43,7 +43,10 @@ supportedTargets.platform = []  # Skip checking supported platform/config when b
 
 [settings.app.exts]
 folders.'++' = [  # Search paths for extensions.
-    "${app}/../exts",
+
+	"modified/isaac-dependencies/",
+  	"modified/isaac-dependencies/extsPhysics",
+	"${app}/../exts",
     "${app}/../apps",
     "${app}/../extscache"
 ]
